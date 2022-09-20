@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('party.jpg');
+    background-size: cover;
+    margin-top: 200px;
+    max-height: 600px;
+}
+.keys{
+    display: flex;
+    justify-content: center;
+}
+.key{
+    border: 4px solid black;
+    border-radius: 5px;
+    margin: 20px;
+    font-size: 25px;
+    padding: 18px 10px;
+    transition: all 0.1s;
+    width: 100px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: #ff1100;
+    box-shadow: 0 0 10px #ff1100;
+}
+kbd {
+    display: block;
+    font-size: 40px;
+}
+.sound{
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ff1100;
+}
+
